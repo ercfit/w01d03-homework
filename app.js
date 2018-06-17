@@ -110,18 +110,44 @@ console.log("what's broken now?");
 
 //1.
 
-const ninjaTurtles = ["Donatello", "Leonardo, Raphael, Michaelangelo"];
-for (i = 0; i < ninjaTurtles.length; i++){
-	ninjaTurtles[i] = ninjaTurtles.toUpperCase();
-}
+// const ninjaTurtles = ["Donatello", "Leonardo, Raphael, Michaelangelo"];
+// for (i = 0; i < ninjaTurtles.length; i++){
+// 	ninjaTurtles[i] = ninjaTurtles.toUpperCase();
+// }
+// 	console.log(ninjaTurtles);
 
-	console.log(ninjaTurtles);
+//Answer:
 
+// /Users/bosslady/ga_wdi_funky_ducks/6_13_2018_control_flow_loops_conditionals/w01d03-homework/app.js:115
+// 	ninjaTurtles.toUpperCase();
+// 	             ^
 
+// TypeError: ninjaTurtles.toUpperCase is not a function
+//     at Object.<anonymous> (/Users/bosslady/ga_wdi_funky_ducks/6_13_2018_control_flow_loops_conditionals/w01d03-homework/app.js:115:15)
+//     at Module._compile (internal/modules/cjs/loader.js:702:30)
+//     at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+//     at Module.load (internal/modules/cjs/loader.js:612:32)
+//     at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+//     at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+//     at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+//     at startup (internal/bootstrap/node.js:238:19)
+//     at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
 
+//Return of the Closets
 
+//1.
+const kristynsCloset = ["left shoe", "cowboy boots", "right sock", "GA hoodie", "green pants", 
+						"yellow knit hat", "marshmellow peeps"];
 
+const thomsCloset = [["grey button-up", "dark grey button-up", "light blue button-up", "blue button-up"],
+					["grey jeans", "jeans", "PJs"],
+					["wool mittens", "wool scarf", "raybans"]]
 
+// const kristynsShoe = kristynsCloset.shift();
+// console.log(kristynsCloset);
+// thomsCloset[0,2].unshift(kristynsShoe);
+// console.log(thomsCloset);
 
-
+//2.
+console.log(thomsCloset[0,0], thomsCloset[0,1], thomsCloset[0,2]);
 
