@@ -80,3 +80,33 @@ console.log("what's broken now?");
 // 	}
 // }
 
+//Getting to Know You
+// const thom = ["Thom", 1000, "Christchurch"];
+// const karolin = ["Karolin", 16, "New York"];
+// const kristyn = ["Kristyn", 5, "Pittsburg"];
+// const matt = ["Matt H", 186, "Philadelphia"];
+
+//1.
+// thom.shift();
+// console.log(thom);
+
+// thom.unshift("Gameboy")
+// console.log(thom);
+
+//2.
+// karolin[1] = 17;
+// console.log(karolin);
+
+//3.
+// matt[2] = "Gothom City";
+// console.log(matt);
+
+//4. 
+// kristyn.pop();
+// kristyn.push("Brooklyn");
+// console.log(kristyn);
+
+
+
+
+
