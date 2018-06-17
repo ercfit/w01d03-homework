@@ -135,19 +135,44 @@ console.log("what's broken now?");
 
 //Return of the Closets
 
-//1.
-const kristynsCloset = ["left shoe", "cowboy boots", "right sock", "GA hoodie", "green pants", 
-						"yellow knit hat", "marshmellow peeps"];
+//1. - Alien Attire
+// const kristynsCloset = ["left shoe", "cowboy boots", "right sock", "GA hoodie", "green pants", 
+// 						"yellow knit hat", "marshmellow peeps"];
 
-const thomsCloset = [["grey button-up", "dark grey button-up", "light blue button-up", "blue button-up"],
-					["grey jeans", "jeans", "PJs"],
-					["wool mittens", "wool scarf", "raybans"]]
+// const thomsCloset = [["grey button-up", "dark grey button-up", "light blue button-up", "blue button-up"],
+// 					["grey jeans", "jeans", "PJs"],
+// 					["wool mittens", "wool scarf", "raybans"]];
 
 // const kristynsShoe = kristynsCloset.shift();
-// console.log(kristynsCloset);
+// // console.log(kristynsCloset);
 // thomsCloset[0,2].unshift(kristynsShoe);
 // console.log(thomsCloset);
 
-//2.
-console.log(thomsCloset[0,0], thomsCloset[0,1], thomsCloset[0,2]);
+//1. Dress Us Up
+//const kristynOutfit1 = kristynsCloset[2] + ", " + thomsCloset[0,1][0];
 
+//const kristynOutfit2 = kristynsCloset[4] + ", " + thomsCloset[0,0][0] + ", " + thomsCloset[0,1][1];
+
+//const kristynOutfit3 = kristynsCloset[0] + ", " + thomsCloset[0,1][0] + ", " + thomsCloset[0,0][2];
+
+//const thomOutfit1 = thomsCloset[0,1][2] + ", " + thomsCloset[0,2][1];
+
+//const thomOutfit2 = thomsCloset[0,0][3] + ", " + thomsCloset[0,1][1]; 
+
+//const thomOutfit3 = thomsCloset[0,2][3] + ", " + thomsCloset[0,1][1];
+
+
+//console.log(kristynOutfit1);
+//console.log(kristynOutfit2);
+//console.log(kristynOutfit3);
+//console.log(thomOutfit1);
+//console.log(thomOutfit2);
+//console.log(thomOutfit3);
+
+//1. Dirty Laundry
+
+ // for (i = 0; i < kristynsCloset.length; i++){
+	// console.log("WHIRR: Now washing " + kristynsCloset[i]); }
+
+//2. Inventory
+//console.log(thomsCloset[0,0], thomsCloset[0,1], thomsCloset[0,2]);
