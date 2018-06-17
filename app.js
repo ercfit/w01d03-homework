@@ -106,6 +106,21 @@ console.log("what's broken now?");
 // kristyn.push("Brooklyn");
 // console.log(kristyn);
 
+//Yell at the Ninja Turtles
+
+//1.
+
+const ninjaTurtles = ["Donatello", "Leonardo, Raphael, Michaelangelo"];
+for (i = 0; i < ninjaTurtles.length; i++){
+	ninjaTurtles[i] = ninjaTurtles.toUpperCase();
+}
+
+	console.log(ninjaTurtles);
+
+
+
+
+
 
 
 
