@@ -176,3 +176,15 @@ console.log("what's broken now?");
 
 //2. Inventory
 //console.log(thomsCloset[0,0], thomsCloset[0,1], thomsCloset[0,2]);
+
+//Multiples of 3 and 5
+
+//const multiples = [];
+//const sum = 0;
+for(let i = 0; i < 1001; i++){
+	if ((i % 3 === 0) || (i % 5 === 0)){
+		//sum ++;
+		console.log(i);
+	}
+}
+
